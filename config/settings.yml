@@ -15,3 +15,11 @@ footer:
   link1: "https://www.railstutorial.org"
   link2: "https://www.michaelhartl.com"
   link3: "https://news.railstutorial.org"
+model:
+  user:
+    name:
+      maximum: 50
+    email:
+      maximum: 50
+    password:
+      minimum: 6
