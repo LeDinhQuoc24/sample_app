@@ -4,12 +4,26 @@ en:
   layouts:
     application:
       title_app: "Ruby on Rails Tutorial Sample App"
+    header:
+      sample_app: "Sample App"
+      home: "Home"
+      help: "Help"
+      log in: "Log in"
+    footer:
+      the: "The"
+      rort: "Ruby on Rails Tutorial"
+      by: "by"
+      about: "About"
+      contact: "Contract"
+      news: "News"
   static_pages:
     home:
       home: "Home"
       title_home: "This is the home page for the"
       ruby_rails: "Ruby on Rails Tutorial"
       sample_application: "sample application."
+      welcome: "Welcome to the Sample App"
+      sign: "Sign up now!"
     help:
       help: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -28,5 +42,10 @@ en:
       to_teach: "to teach web development with."
     contact:
       contact: "Contact"
-      contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_ruby: "Contact the Ruby on Rails Tutorial about the sample
+        app at the"
       contact_page: "contact page"
+  users:
+    new:
+      sign_up: "Sign up"
+      sign_up_page: "This will be a signup page for new users"
