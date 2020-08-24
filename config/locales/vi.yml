@@ -1,0 +1,33 @@
+vi:
+  layouts:
+    application:
+      title_app: "Ứng dụng mẫu Ruby trên Rails"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      sample_app: "Ứng dụng mẫu"
+      title_home: "Đây là trang chủ"
+      ruby_rails: "Hướng dẫn Ruby trên Rails"
+      sample_application: "ứng dụng mẫu."
+    help:
+      help: "Trợ giúp"
+      get_help: "Nhận trợ giúp về hướng dẫn Ruby trên Rails"
+      help_page: "Trang trợ giúp hướng dẫn Rails"
+      to_get_help: "Nhận trợ giúp về ứng dụng mẫu,tìm trên"
+      book: "Tài liệu"
+    about:
+      about: "Tìm hiểu"
+      rort: "Hướng dẫn Ruby trên Rails"
+      the: ""
+      part: "một phần của"
+      fa_of_tu: "- hướng dẫn tổng quát,là một"
+      book: "tài liệu"
+      and: "và"
+      screencast: "video trực tuyến"
+      to_teach: "để hướng dẫn về phát triển Web."
+    contact:
+      contact: "Liên hệ"
+      contact_ruby: "Liên hệ với hướng dẫn Ruby trên Rails về ứng dụng mẫu tại"
+      contact_page: "Trang liên lạc"

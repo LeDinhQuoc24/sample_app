@@ -1,15 +1,20 @@
+<% provide(:title, "") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sample</title>
+    <title><%= yield(:title) %> | <%= t ".title_app" %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "application", media: "all",
+      "data-turbolinks-track": "reload" %>
+    <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
   </head>
 
   <body>
+    <div class="language">
+      <%= link_to t(".english"), locale: :en %>
+      <%= link_to t(".vietnamese"), locale: :vi %>
+    </div>
     <%= yield %>
   </body>
 </html>
