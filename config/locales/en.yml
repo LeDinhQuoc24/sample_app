@@ -1,5 +1,6 @@
 en:
   hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
       title_app: "Ruby on Rails Tutorial Sample App"
@@ -20,7 +21,7 @@ en:
       rort: "Ruby on Rails Tutorial"
       the: "The"
       part: "part of the"
-      family of tutorials, is a: "family of tutorials, is a"
+      fa_of_tu: "family of tutorials, is a"
       book: "book"
       and: "and"
       screencast: "screencast series"
