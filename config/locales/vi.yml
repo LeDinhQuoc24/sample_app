@@ -1,10 +1,22 @@
 vi:
-  base_title: "Hướng dẫn sử dụng Ứng dụng mẫu Ruby trên Rails"
+  base_title: "Hướng dẫn Ứng dụng mẫu Ruby trên Rails"
   layouts:
     application:
       title_app: "Ứng dụng mẫu Ruby trên Rails"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+    header:
+      sample_app: "Ứng dụng mẫu"
+      home: "Trang Chủ"
+      help: "Trợ Giúp"
+      log in: "Đăng Nhập"
+    footer:
+      the: ""
+      rort: "Hướng dẫn Ruby trên Rails"
+      by: "bởi"
+      about: "Tìm hiểu"
+      contact: "Liên hệ"
+      news: "Khác"
   static_pages:
     home:
       home: "Trang chủ"
@@ -12,6 +24,8 @@ vi:
       title_home: "Đây là trang chủ"
       ruby_rails: "Hướng dẫn Ruby trên Rails"
       sample_application: "ứng dụng mẫu."
+      welcome: "Chào Mừng Đến Ứng Dụng Mẫu"
+      sign: "Đăng ký ngay"
     help:
       help: "Trợ giúp"
       get_help: "Nhận trợ giúp về hướng dẫn Ruby trên Rails"
@@ -30,5 +44,10 @@ vi:
       to_teach: "để hướng dẫn về phát triển Web."
     contact:
       contact: "Liên hệ"
-      contact_ruby: "Liên hệ với hướng dẫn Ruby trên Rails về ứng dụng mẫu tại"
+      contact_ruby: "Liên hệ với hướng dẫn Ruby trên Rails về ứng dụng
+        mẫu tại"
       contact_page: "Trang liên lạc"
+  users:
+    new:
+      sign_up: "Đăng ký"
+      sign_up_page: "Đây là trang đăng ký cho người dùng"
