@@ -8,7 +8,7 @@ en:
       sample_app: "Sample App"
       home: "Home"
       help: "Help"
-      log in: "Log in"
+      log_in: "Log in"
     footer:
       the: "The"
       rort: "Ruby on Rails Tutorial"
