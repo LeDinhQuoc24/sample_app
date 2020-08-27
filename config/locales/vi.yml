@@ -9,7 +9,7 @@ vi:
       sample_app: "Ứng dụng mẫu"
       home: "Trang Chủ"
       help: "Trợ Giúp"
-      log in: "Đăng Nhập"
+      log_in: "Đăng Nhập"
     footer:
       the: ""
       rort: "Hướng dẫn Ruby trên Rails"
@@ -50,4 +50,34 @@ vi:
   users:
     new:
       sign_up: "Đăng ký"
-      sign_up_page: "Đây là trang đăng ký cho người dùng"
+      name: "Tên"
+      email: "Hộp thư"
+      password: "Mật khẩu"
+      confirmation: "Nhập lại mật khẩu"
+      create_acc: "Tạo tài khoản"
+    show:
+      message: "Không tìm thấy"
+    create:
+        welcome: "Chào mừng đến với trang"
+        failed: "Đăng nhập thất bại"
+  controller:
+    users:
+      create:
+        welcome: "Chào mừng đến với Ứng dụng mẫu!"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "-> Tên không được để trống"
+            password:
+              blank: "-> Mật khẩu không được để trống"
+              too_short: "-> Mật khẩu ít nhất 6 ký tự"
+            email:
+              blank: "-> Hộp thư không được để trống"
+              invalid: "-> Hộp thư không đúng định dạng"
+  shared:
+    error_messages:
+      form_contains: "Biểu mẫu chứa"
+      error: "lỗi"

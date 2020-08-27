@@ -8,7 +8,7 @@ en:
       sample_app: "Sample App"
       home: "Home"
       help: "Help"
-      log in: "Log in"
+      log_in: "Log in"
     footer:
       the: "The"
       rort: "Ruby on Rails Tutorial"
@@ -48,4 +48,21 @@ en:
   users:
     new:
       sign_up: "Sign up"
-      sign_up_page: "This will be a signup page for new users"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      create_acc: "Create my account"
+    create:
+        welcome: "Welcome to"
+  controller:
+    users:
+      create:
+        welcome: "Welcome to the Sample App!"
+        failed: "Login failed"
+      show:
+        message: "Not found"
+  shared:
+    error_messages:
+      form_contains: "The form contains"
+      error: "error"
