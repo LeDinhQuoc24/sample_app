@@ -67,6 +67,7 @@ vi:
       create_acc: "Tạo tài khoản"
     index:
       all_users: "Danh sách người dùng"
+      please_log_in: "Vui lòng đăng nhập"
     edit:
       edit: "Chỉnh sửa"
       save: "Lưu thay đổi"
@@ -77,6 +78,8 @@ vi:
     create:
       welcome: "Chào mừng đến với trang"
       create_fail: "Tạo tài khoản thất bại"
+      check_email: "Vui lòng kiểm tra hộp thư để kích hoạt tài khoản
+        của bạn"
     update:
       update: "Hồ sơ đã được cập nhật"
       update_fail: "Cập nhật thất bại"
@@ -84,8 +87,6 @@ vi:
       delete: "Đã xóa người dùng"
       delete_fail: "Xóa thất bại"
       message: "Xóa thất bại"
-    logged_in_user:
-      please_log_in: "Vui lòng đăng nhập"
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -95,11 +96,17 @@ vi:
       password: "Mật khẩu"
       remember_me: "Lưu thông tin tài khoản trên máy"
     create:
+      message: "Tài khoản chưa được kích hoạt.Kiểm tra hộp thư của
+        bạn trong đường dẫn kích hoạt."
       invalid: "Hộp thư hoặc mật khẩu không hợp lệ"
   controller:
     users:
       create:
         welcome: "Chào mừng đến với Ứng dụng mẫu!"
+  account_activations:
+    edit:
+      account_activated: "Tài khoản đã được kích hoạt"
+      invalid_link: "Đường dẫn kích hoạt không hợp lệ"
   activerecord:
     errors:
       models:
@@ -118,3 +125,36 @@ vi:
     error_messages:
       form_contains: "Biểu mẫu chứa"
       error: "lỗi"
+  user_mailer:
+    account_activation:
+      hi: "Chào"
+      welcome: "Hoan nghênh đến Ứng dụng mẫu.Nhấp vào đường dẫn bên
+        dưới để kích hoạt tài khoản của bạn"
+      sample_app: "Ứng dụng mẫu"
+      activate: "Kích hoạt"
+  mailers:
+    user_mailer:
+      account_activation: "Kích hoạt tài khoản"
+      password_reset:
+        find_me:
+          "đường dẫn in app/views/user_mailer/password_reset.text.erb"
+  password_resets:
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "Xác nhận"
+      email: "Hộp thư"
+    edit:
+      reset_password: "Cài đặt mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Nhập lại"
+      update_password: "Cập nhật mật khẩu"
+    create:
+      email_found: "Đã gửi đến hộp thư hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ hộp thư"
+    update:
+      not_empty: "không được để trống"
+      reset_password: "Mật khẩu đã được đặt lại."
+    get_user:
+      not_found: "không tìm thấy"
+    check_expiration:
+      reset_expired: "Đặt lại mật khẩu đã hết hạn."
