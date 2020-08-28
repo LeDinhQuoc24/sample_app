@@ -73,7 +73,7 @@ vi:
       sign: "Đăng ký ngay!"
       email: "Hộp thư"
       password: "Mật khẩu"
-      remember_me: "Lưu lại trên máy"
+      remember_me: "Lưu thông tin tài khoản trên máy"
     create:
       invalid: "Hộp thư hoặc mật khẩu không hợp lệ"
   controller:
