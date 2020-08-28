@@ -54,18 +54,38 @@ vi:
         mẫu tại"
       contact_page: "Trang liên lạc"
   users:
-    new:
-      sign_up: "Đăng ký"
+    form:
       name: "Tên"
       email: "Hộp thư"
       password: "Mật khẩu"
       confirmation: "Nhập lại mật khẩu"
+    user:
+      delete: "Xóa"
+      sure: "Bạn có chắc?"
+    new:
+      sign_up: "Đăng ký"
       create_acc: "Tạo tài khoản"
+    index:
+      all_users: "Danh sách người dùng"
+    edit:
+      edit: "Chỉnh sửa"
+      save: "Lưu thay đổi"
+      update: "Cập nhật hồ sơ"
+      gravatar: "Gravatar"
     show:
       message: "Không tìm thấy"
     create:
-        welcome: "Chào mừng đến với trang"
-        failed: "Đăng nhập thất bại"
+      welcome: "Chào mừng đến với trang"
+      create_fail: "Tạo tài khoản thất bại"
+    update:
+      update: "Hồ sơ đã được cập nhật"
+      update_fail: "Cập nhật thất bại"
+    destroy:
+      delete: "Đã xóa người dùng"
+      delete_fail: "Xóa thất bại"
+      message: "Xóa thất bại"
+    logged_in_user:
+      please_log_in: "Vui lòng đăng nhập"
   sessions:
     new:
       log_in: "Đăng nhập"
