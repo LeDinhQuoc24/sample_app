@@ -10,6 +10,12 @@ vi:
       home: "Trang Chủ"
       help: "Trợ Giúp"
       log_in: "Đăng Nhập"
+      users: "Người dùng"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      account: "Tài khoản"
+      log_out: "Đăng xuất"
+      log_in: "Đăng nhập"
     footer:
       the: ""
       rort: "Hướng dẫn Ruby trên Rails"
@@ -60,6 +66,16 @@ vi:
     create:
         welcome: "Chào mừng đến với trang"
         failed: "Đăng nhập thất bại"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign: "Đăng ký ngay!"
+      email: "Hộp thư"
+      password: "Mật khẩu"
+      remember_me: "Lưu thông tin tài khoản trên máy"
+    create:
+      invalid: "Hộp thư hoặc mật khẩu không hợp lệ"
   controller:
     users:
       create:
@@ -77,6 +93,7 @@ vi:
             email:
               blank: "-> Hộp thư không được để trống"
               invalid: "-> Hộp thư không đúng định dạng"
+              taken: "->Hộp thư đã tồn tại"
   shared:
     error_messages:
       form_contains: "Biểu mẫu chứa"
