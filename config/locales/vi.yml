@@ -77,6 +77,7 @@ vi:
             email:
               blank: "-> Hộp thư không được để trống"
               invalid: "-> Hộp thư không đúng định dạng"
+              taken: "->Hộp thư đã tồn tại"
   shared:
     error_messages:
       form_contains: "Biểu mẫu chứa"
