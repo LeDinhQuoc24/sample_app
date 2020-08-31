@@ -9,6 +9,12 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      account: "Account"
+      log_out: "Log out"
+      log_in: "Log in"
     footer:
       the: "The"
       rort: "Ruby on Rails Tutorial"
@@ -53,15 +59,25 @@ en:
       password: "Password"
       confirmation: "Confirmation"
       create_acc: "Create my account"
+    show:
+        message: "Not found"
     create:
         welcome: "Welcome to"
+        failed: "Login failed"
+  sessions:
+    new:
+      log_in: "Login"
+      new_user: "New user?"
+      sign: "Sign up now!"
+      email: "Email"
+      password: "Password"
+      remember_me: "Remember me on this computer"
+    create:
+        invalid: "Invalid email/password combination"
   controller:
     users:
       create:
         welcome: "Welcome to the Sample App!"
-        failed: "Login failed"
-      show:
-        message: "Not found"
   shared:
     error_messages:
       form_contains: "The form contains"
