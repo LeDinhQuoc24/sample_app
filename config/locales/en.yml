@@ -52,18 +52,38 @@ en:
         app at the"
       contact_page: "contact page"
   users:
-    new:
-      sign_up: "Sign up"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       confirmation: "Confirmation"
+    user:
+      delete: "Delete"
+      sure: "You sure?"
+    new:
+      sign_up: "Sign up"
       create_acc: "Create my account"
+    index:
+      all_users: "All users"
+    edit:
+      edit: "Edit user"
+      save: "Save changes"
+      update: "Update your profile"
+      gravatar: "Gravatar"
     show:
-        message: "Not found"
+      message: "Not found"
     create:
-        welcome: "Welcome to"
-        failed: "Login failed"
+      welcome: "Welcome to"
+      create_fail: "Create account failed"
+    update:
+      update: "Profile updated"
+      update_fail: "Update failed"
+    destroy:
+      delete: "User deleted"
+      delete_fail: "Delete failed"
+      message: "Delete failed"
+    logged_in_user:
+      please_log_in: "Please log in"
   sessions:
     new:
       log_in: "Login"
@@ -73,7 +93,7 @@ en:
       password: "Password"
       remember_me: "Remember me on this computer"
     create:
-        invalid: "Invalid email/password combination"
+      invalid: "Invalid email/password combination"
   controller:
     users:
       create:
