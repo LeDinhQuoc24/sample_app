@@ -8,6 +8,7 @@ gem "bootstrap-sass", "3.4.1"
 gem "bootstrap-will_paginate", "1.0.0"
 gem "config"
 gem "faker", "2.1.2"
+gem "figaro"
 gem "rails-controller-testing"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 6.0.3", ">= 6.0.3.2"
