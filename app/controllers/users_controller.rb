@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.activated.paginate(page:
+    @users = User.actived.paginate(page:
       params[:page], per_page: Settings.users.index.per_page)
   end
 

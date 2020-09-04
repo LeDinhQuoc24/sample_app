@@ -95,6 +95,7 @@ vi:
       email: "Hộp thư"
       password: "Mật khẩu"
       remember_me: "Lưu thông tin tài khoản trên máy"
+      forgot_password: "quên mật khẩu"
     create:
       message: "Tài khoản chưa được kích hoạt.Kiểm tra hộp thư của
         bạn trong đường dẫn kích hoạt."
@@ -132,6 +133,13 @@ vi:
         dưới để kích hoạt tài khoản của bạn"
       sample_app: "Ứng dụng mẫu"
       activate: "Kích hoạt"
+    password_reset:
+      to_reset: "Để cài đặt lại mật khẩu,nhấp vào đường dẫn bên dưới:"
+      link_expire: "Liên kết này sẽ hết hạn sau 2 giờ."
+      not_request: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình,
+        vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+      password_reset: "Đặt lại mật khẩu"
+      reset_password: "Đặt lại mật khẩu"
   mailers:
     user_mailer:
       account_activation: "Kích hoạt tài khoản"
