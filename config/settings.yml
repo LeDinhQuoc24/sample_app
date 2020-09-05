@@ -25,6 +25,14 @@ model:
       maximum: 50
     password:
       minimum: 6
+  micropost:
+    content:
+      maximum: 140
+    content_type:
+      in: /%w([image/jpeg image/gif image/png])/
+      message: "must be a valid image format"
+    size:
+      message: "should be less than 5MB"
 views:
   users:
     index:
