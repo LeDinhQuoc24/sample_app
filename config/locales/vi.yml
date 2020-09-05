@@ -32,6 +32,7 @@ vi:
       sample_application: "ứng dụng mẫu."
       welcome: "Chào Mừng Đến Ứng Dụng Mẫu"
       sign: "Đăng ký ngay"
+      micropost_feed: "Micropost Feed"
     help:
       help: "Trợ giúp"
       get_help: "Nhận trợ giúp về hướng dẫn Ruby trên Rails"
@@ -104,6 +105,9 @@ vi:
     users:
       create:
         welcome: "Chào mừng đến với Ứng dụng mẫu!"
+    application:
+      logged_in_user:
+        log_in: "Vui lòng đăng nhập"
   account_activations:
     edit:
       account_activated: "Tài khoản đã được kích hoạt"
@@ -126,6 +130,9 @@ vi:
     error_messages:
       form_contains: "Biểu mẫu chứa"
       error: "lỗi"
+    micropost:
+      compose: "Soạn micropost mới..."
+      post: "Đăng bài"
   user_mailer:
     account_activation:
       hi: "Chào"
@@ -166,3 +173,21 @@ vi:
       not_found: "không tìm thấy"
     check_expiration:
       reset_expired: "Đặt lại mật khẩu đã hết hạn."
+  microposts:
+    micropost:
+      post: "Đã đăng"
+      ago: "trước."
+      delete: "xóa"
+      sure: "Bạn có chắc?"
+    create:
+      micropost_create: "Đã tạo Micropost!"
+    destroy:
+      micropost_delete: "Đã xóa Micropost"
+      fail: "Thao tác thất bại"
+    correct_user:
+      found: "Tác vụ có hiệu lực"
+      not_fould: "Không tìm thấy"
+  models:
+    micropost:
+      valid_image: "phải đúng định dạng ảnh"
+      less_than: "nên nhỏ hơn 5MB"
