@@ -88,6 +88,10 @@ vi:
       delete: "Đã xóa người dùng"
       delete_fail: "Xóa thất bại"
       message: "Xóa thất bại"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -108,6 +112,11 @@ vi:
     application:
       logged_in_user:
         log_in: "Vui lòng đăng nhập"
+    relationships:
+      load_create:
+        fail: "Thao tác thất bại"
+      load_destroy:
+        fail: "Thao tác thất bại"
   account_activations:
     edit:
       account_activated: "Tài khoản đã được kích hoạt"
@@ -185,7 +194,6 @@ vi:
       micropost_delete: "Đã xóa Micropost"
       fail: "Thao tác thất bại"
     correct_user:
-      found: "Tác vụ có hiệu lực"
       not_fould: "Không tìm thấy"
   models:
     micropost:

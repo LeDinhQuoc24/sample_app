@@ -3,6 +3,7 @@ class Micropost < ApplicationRecord
   has_one_attached :image
   scope :created_at, ->{order(created_at: :desc)}
   scope :user_id, ->{where user_id: id}
+  scope :feed_by_id, ->(ids){where user_id: ids}
   validates :content, presence: true,
     length: {maximum: Settings.model.micropost.content.maximum}
   validates :image,
