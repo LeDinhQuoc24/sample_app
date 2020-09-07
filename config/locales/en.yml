@@ -30,6 +30,7 @@ en:
       sample_application: "sample application."
       welcome: "Welcome to the Sample App"
       sign: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     help:
       help: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -101,6 +102,9 @@ en:
     users:
       create:
         welcome: "Welcome to the Sample App!"
+    application:
+      logged_in_user:
+        log_in: "Please log in"
   account_activations:
     edit:
       account_activated: "Account activated!"
@@ -109,6 +113,9 @@ en:
     error_messages:
       form_contains: "The form contains"
       error: "error"
+    microposts:
+      compose: "Compose new micropost..."
+      post: "Post"
   user_mailer:
     account_activation:
       hi: "Hi"
@@ -149,3 +156,21 @@ en:
       not_found: "not found"
     check_expiration:
       reset_expired: "Password reset has expired."
+  microposts:
+    micropost:
+      post: "Post"
+      ago: "ago."
+      delete: "delete"
+      sure: "You sure?"
+    create:
+      micropost_create: "Micropost created!"
+    destroy:
+      micropost_delete: "Micropost deleted"
+      fail: "Failed action"
+    correct_user:
+      found: "Action takes effect"
+      not_fould: "Not fould"
+  models:
+    micropost:
+      valid_image: "must be a valid image format"
+      less_than: "should be less than 5MB"

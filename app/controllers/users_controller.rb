@@ -11,11 +11,13 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.actived.paginate(page:
+    @users = User.activated.paginate(page:
       params[:page], per_page: Settings.users.index.per_page)
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate(page: params[:page])
+  end
 
   def create
     @user = User.new(user_params)
