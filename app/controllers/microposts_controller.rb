@@ -32,12 +32,9 @@ class MicropostsController < ApplicationController
 
   def correct_user
     @micropost = current_user.microposts.find_by(id: params[:id])
-    if @micropost
-      flash[:warning] = t ".fould"
-      redirect_to root_url
-    else
-      flash[:warning] = t ".not_fould"
-      redirect_to root_url
-    end
+    return if @micropost
+
+    flash[:warning] = t ".not_fould"
+    redirect_to root_url
   end
 end

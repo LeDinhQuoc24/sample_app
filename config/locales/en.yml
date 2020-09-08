@@ -85,6 +85,10 @@ en:
       delete: "User deleted"
       delete_fail: "Delete failed"
       message: "Delete failed"
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Lượng người theo dõi"
   sessions:
     new:
       log_in: "Login"
@@ -105,6 +109,11 @@ en:
     application:
       logged_in_user:
         log_in: "Please log in"
+    relationships:
+      load_create:
+        fail: "Failed action"
+      load_destroy:
+        fail: "Failed action"
   account_activations:
     edit:
       account_activated: "Account activated!"
@@ -168,9 +177,9 @@ en:
       micropost_delete: "Micropost deleted"
       fail: "Failed action"
     correct_user:
-      found: "Action takes effect"
       not_fould: "Not fould"
   models:
     micropost:
       valid_image: "must be a valid image format"
       less_than: "should be less than 5MB"
+
